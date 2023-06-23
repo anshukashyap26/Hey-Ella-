@@ -129,7 +129,7 @@ if __name__=="__main__":
         elif ('Naya Raipur' or 'naya raipur') in query:
             webbrowser.open("www.iiitnr.ac.in") 
             time.sleep(2)
-        # add song    
+        #  add song    
         elif ('play music') in query:
             playsound("Add Song path")
             time.sleep(2)
